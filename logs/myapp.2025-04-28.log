@@ -1,0 +1,35 @@
+2025-04-28 17:29:10.319 [main] INFO  javabasic.LogbackExample - 这是一条 INFO 级别的日志
+2025-04-28 17:29:10.324 [main] WARN  javabasic.LogbackExample - 这是一条 WARN 级别的日志
+2025-04-28 17:29:10.325 [main] ERROR javabasic.LogbackExample - 这是一条 ERROR 级别的日志
+2025-04-28 17:29:10.325 [main] INFO  javabasic.LogbackExample - 用户信息：姓名=John，年龄=30
+2025-04-28 17:29:10.326 [main] ERROR javabasic.LogbackExample - 发生异常：
+java.lang.ArithmeticException: / by zero
+	at javabasic.LogbackExample.main(LogbackExample.java:25)
+2025-04-28 17:42:42.652 [main] INFO  javabasic.LogbackExample - 这是一条 INFO 级别的日志
+2025-04-28 17:42:42.655 [main] WARN  javabasic.LogbackExample - 这是一条 WARN 级别的日志
+2025-04-28 17:42:42.658 [main] ERROR javabasic.LogbackExample - 这是一条 ERROR 级别的日志
+2025-04-28 17:42:42.659 [main] INFO  javabasic.LogbackExample - 用户信息：姓名=John，年龄=30
+2025-04-28 17:42:42.659 [main] ERROR javabasic.LogbackExample - 发生异常：
+java.lang.ArithmeticException: / by zero
+	at javabasic.LogbackExample.main(LogbackExample.java:26)
+2025-04-28 17:44:13.837 [main] INFO  javabasic.LogbackExample - 这是一条 INFO 级别的日志
+2025-04-28 17:44:13.839 [main] WARN  javabasic.LogbackExample - 这是一条 WARN 级别的日志
+2025-04-28 17:44:13.839 [main] ERROR javabasic.LogbackExample - 这是一条 ERROR 级别的日志
+2025-04-28 17:44:13.839 [main] INFO  javabasic.LogbackExample - 用户信息：姓名=John，年龄=30
+2025-04-28 17:44:13.840 [main] ERROR javabasic.LogbackExample - 发生异常：
+java.lang.ArithmeticException: / by zero
+	at javabasic.LogbackExample.main(LogbackExample.java:26)
+2025-04-28 17:44:29.742 [main] INFO  javabasic.LogbackExample - 这是一条 INFO 级别的日志
+2025-04-28 17:44:29.745 [main] WARN  javabasic.LogbackExample - 这是一条 WARN 级别的日志
+2025-04-28 17:44:29.745 [main] ERROR javabasic.LogbackExample - 这是一条 ERROR 级别的日志
+2025-04-28 17:44:29.745 [main] INFO  javabasic.LogbackExample - 用户信息：姓名=John，年龄=30
+2025-04-28 17:44:29.746 [main] ERROR javabasic.LogbackExample - 发生异常：
+java.lang.ArithmeticException: / by zero
+	at javabasic.LogbackExample.main(LogbackExample.java:26)
+2025-04-28 17:44:56.080 [main] INFO  javabasic.LogbackExample - 这是一条 INFO 级别的日志
+2025-04-28 17:44:56.082 [main] WARN  javabasic.LogbackExample - 这是一条 WARN 级别的日志
+2025-04-28 17:44:56.082 [main] ERROR javabasic.LogbackExample - 这是一条 ERROR 级别的日志
+2025-04-28 17:44:56.082 [main] INFO  javabasic.LogbackExample - 用户信息：姓名=John，年龄=30
+2025-04-28 17:44:56.083 [main] ERROR javabasic.LogbackExample - 发生异常：
+java.lang.ArithmeticException: / by zero
+	at javabasic.LogbackExample.main(LogbackExample.java:26)
