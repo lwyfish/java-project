@@ -1,17 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ð§…æøÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(¿Ó…
-K
-java:S1117"5Rename "a" which hides the field declared at line 13.(ç•¡æ
-P
-java:S1117"5Rename "b" which hides the field declared at line 14.(Úñí®øÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(—Þ“
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-@
-java:S1068"%Remove this unused "a" private field.(Þ‹®øÿÿÿÿ
-;
-java:S1068"%Remove this unused "b" private field.(çâøš
