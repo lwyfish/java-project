@@ -1,6 +1,5 @@
 package javabasic;
 
-import jdk.nashorn.internal.ir.debug.ObjectSizeCalculator;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -25,8 +24,8 @@ public class demo3 {
         objectList.add(a);
         objectList.add(b);
         for (Object o : objectList) {
-            long size = ObjectSizeCalculator.getObjectSize(o);
-            System.out.println(o + " Size: " + size + " bytes");
+//            long size = ObjectSizeCalculator.getObjectSize(o);
+//            System.out.println(o + " Size: " + size + " bytes");
         }
     }
 
