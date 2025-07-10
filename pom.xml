@@ -75,6 +75,12 @@
             <artifactId>smile-plot</artifactId>
             <version>3.0.0</version>
         </dependency>
+		<!--可视化-->
+		<dependency>
+			<groupId>com.github.signaflo</groupId>
+			<artifactId>timeseries</artifactId>
+			<version>0.4</version>
+		</dependency>
 
 
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.haifengl/smile-math &ndash;&gt;-->
