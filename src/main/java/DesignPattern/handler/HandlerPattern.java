@@ -3,6 +3,12 @@ package DesignPattern.handler;
 
 import lombok.Getter;
 
+/**
+ * 责任链模式
+ * 处理者Handler ：定义一个处理请求的接口，包含一个处理请求的抽象方法和一个指向下一个处理者的链接。
+ * 具体处理者ConcreteHandler: 实现处理请求的方法，并判断能否处理请求，如果能够处理请求则进行处理，否则将请求传递给下一个处理者。
+ * 客户端：创建并组装处理者对象链，并将请求发送到链上的第一个处理者。
+ */
 public class HandlerPattern {
     public static void main(String[] args) {
         ConcreteHandler1 concreteHandler1 = new ConcreteHandler1();
