@@ -2,6 +2,7 @@ package javabasic;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * 测试
@@ -19,6 +20,13 @@ public class demo2 {
 //        System.out.println(b);
         demo2.test();
 
+        List<Long> list = new ArrayList<>();
+        list.add(1111L);
+        list.add(1112L);
+        list.add(1113L);
+        list.add(1115L);
+        list.sort(Long::compareTo);
+        System.out.println(list);
 
     }
 
