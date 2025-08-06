@@ -14,8 +14,7 @@ public class PredicateDemo01 {
          });*/
 
         //优化Lambda表达式
-        boolean b = checkString(s, str -> str.length() > 5);
-        System.out.println(b);
+        checkString(s, str -> str.length() > 5);
 
         checkString(s, new Predicate<String>() {
 
@@ -32,8 +31,13 @@ public class PredicateDemo01 {
      * 传递一个Predicate接口,泛型使用String
      * 使用Predicate中的方法test对字符串进行判断,并把判断的结果返回
      */
-    public static boolean checkString(String s, Predicate<String> pre) {
+    public static void checkString(String s, Predicate<String> pre) {
         System.out.println("checkString方法被调用");
-        return pre.test(s);
+        boolean test = pre.test(s);
+        if (test) {
+            System.out.println("yes");
+        } else {
+            System.out.println("no");
+        }
     }
 }
