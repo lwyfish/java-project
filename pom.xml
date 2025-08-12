@@ -81,6 +81,18 @@
 			<artifactId>timeseries</artifactId>
 			<version>0.4</version>
 		</dependency>
+		<dependency>
+			<groupId>nz.ac.waikato.cms.weka</groupId>
+			<artifactId>weka-stable</artifactId>
+			<version>3.8.6</version>
+        </dependency>
+
+		<!--hutool-->
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.8.31</version>
+		</dependency>
 
 
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.haifengl/smile-math &ndash;&gt;-->
