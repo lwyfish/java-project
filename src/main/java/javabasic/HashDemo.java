@@ -1,5 +1,8 @@
 package javabasic;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.Objects;
 
 /**
@@ -32,7 +35,8 @@ public class HashDemo {
     }
 }
 
-
+@AllArgsConstructor
+@NoArgsConstructor
 class Person {
     private String name;
     private int age;
