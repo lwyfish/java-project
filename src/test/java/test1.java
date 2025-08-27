@@ -5,12 +5,15 @@ import java.util.*;
  * @date 2025/04/25 17:34
  **/
 public class test1 {
+    private static int c;
     public static void main(String[] args) {
         test2();
         test3();
         String a = "123";
         test4(a);
         System.out.println(a);
+//        test5();
+        System.out.println(c);
     }
 
     public static void test2() {
@@ -43,5 +46,10 @@ public class test1 {
     public static String test4(String text) {
         text = text + "...";
         return text;
+    }
+
+    public static void test5() {
+        List a = Collections.emptyList();
+        a.add(1);
     }
 }
