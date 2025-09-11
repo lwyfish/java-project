@@ -5,6 +5,10 @@ import java.util.List;
 
 /**
  * 观察者模式
+ * 简述：主题对象设置值后通知所有监听对象，
+ * 主题对象：维护一个监听对象列表、一个状态值，一个通知方法
+ * 监听对象：维护后续更新方法
+ *
  * 定义了一种一对多的依赖关系，让多个观察者对象同时监听一个主题对象，
  * 当主题对象的状态发生变化时，所有依赖于它的观察者都得到通知并被自动更新。
  * <p>
@@ -27,6 +31,9 @@ public class ObserverPattern {
     }
 }
 
+/**
+ * 主题，只关心自己即可
+ */
 interface Subject {
     void registerObserver(Observer observer);
 
