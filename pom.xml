@@ -100,6 +100,12 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.15.3</version> <!-- 请检查最新版本 -->
         </dependency>
+		<!--cglib-->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.2.5</version>
+		</dependency>
 
 
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.haifengl/smile-math &ndash;&gt;-->
