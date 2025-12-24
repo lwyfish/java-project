@@ -1,11 +1,8 @@
 package DesignPattern.observer;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 观察者模式
- * 简述：主题对象设置值后通知所有监听对象，
+ * 简述：主题对象设置值后通知所有监听对象（观察者），
  * 主题对象：维护一个监听对象列表、一个状态值，一个通知方法
  * 监听对象：维护后续更新方法
  *
@@ -19,7 +16,7 @@ import java.util.List;
  * 主题只需要关注自己的状态变化，而观察者只需要关注在主题状态变化时需要执行的操作，两者互不干扰，并且由于观察者和主题是相互独立的，
  * 可以轻松的增加和删除观察者，这样实现的系统更容易扩展和维护。
  */
-public class ObserverPattern {
+public class Main {
     public static void main(String[] args) {
         ConcreteSubject concreteSubject = new ConcreteSubject();
         ConcreteObserver concreteObserver = new ConcreteObserver();
@@ -28,65 +25,5 @@ public class ObserverPattern {
         concreteSubject.registerObserver(concreteObserver);
         concreteSubject.registerObserver(ConcreteObserver2);
         concreteSubject.setState("123");
-    }
-}
-
-/**
- * 主题，只关心自己即可
- */
-interface Subject {
-    void registerObserver(Observer observer);
-
-    void removeObserver(Observer observer);
-
-    void notifyObserver();
-}
-
-interface Observer {
-    void update(String state);
-}
-
-class ConcreteSubject implements Subject {
-    // 观察者列表
-    private List<Observer> observerList = new ArrayList<>();
-    // 状态
-    private String state;
-
-    @Override
-    public void registerObserver(Observer observer) {
-        observerList.add(observer);
-    }
-
-    @Override
-    public void removeObserver(Observer observer) {
-        observerList.remove(observer);
-    }
-
-    @Override
-    public void notifyObserver() {
-        for (Observer observer : observerList) {
-            observer.update(state);
-        }
-    }
-
-    public void setState(String state) {
-        this.state = state;
-        notifyObserver();
-    }
-}
-
-class ConcreteObserver implements Observer {
-
-    @Override
-    public void update(String state) {
-        System.out.println("ConcreteObserver state:" + state);
-    }
-}
-
-class ConcreteObserver2 implements Observer {
-
-    @Override
-    public void update(String state) {
-        System.out.println("ConcreteObserver2 state:" + state);
     }
 }
