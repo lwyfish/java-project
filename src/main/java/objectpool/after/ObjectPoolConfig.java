@@ -2,7 +2,6 @@ package objectpool.after;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import sun.misc.Perf;
 
 /**
  * 对象池bean配置
