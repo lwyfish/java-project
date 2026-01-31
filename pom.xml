@@ -106,9 +106,14 @@
 			<artifactId>cglib</artifactId>
 			<version>3.2.5</version>
 		</dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
 
 
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.haifengl/smile-math &ndash;&gt;-->
+        <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.haifengl/smile-math &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>com.github.haifengl</groupId>-->
 <!--            <artifactId>smile-math</artifactId>-->
